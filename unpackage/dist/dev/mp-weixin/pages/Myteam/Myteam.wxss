@@ -1,0 +1,134 @@
+
+.Myteam{
+	width: 100%;
+	background-color: #F1F1F1;
+}
+.Myteam-head {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	font-size: 30rpx;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 60rpx;
+	background-color: #FFFFFF;
+}
+.Myteam-headbtn {
+	display: inline-block;
+	width: 49%;
+	height: 100%;
+	/* padding-left: 20upx; */
+	font-size: 28rpx;
+	color: #000000;
+	line-height: 60rpx;
+	position: relative;
+	text-align: center;
+}
+.Myteam-btn{
+	position: relative;
+}
+.Myteam-headbtn .active::after {
+	content: "";
+	position: absolute;
+	width: 78rpx;
+	height: 0;
+	left: 50%;
+	margin-left: -39rpx;
+	bottom: 0;
+	border-bottom: 4rpx solid #F21C24;
+}
+.Myteam-centre{
+	margin-top: 62rpx;
+}
+.Myteam-centre-main{
+	padding: 30rpx;
+	background-color: #FFFFFF;
+	margin-bottom: 10rpx;
+}
+.Myteam-centre-top{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	border-bottom: 2rpx solid #E6E6E6;
+	padding-bottom: 30rpx;
+}
+.Myteam-centre-bottom{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	margin-top: 30rpx;
+}
+.Myteam-centre-icon{
+	width: 80rpx;
+	height: 80rpx;
+}
+.Myteam-centre-icon>image{
+	width: 100%;
+	height: 100%;
+}
+.Myteam-centre-item{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	margin-left: 20rpx;
+}
+.Myteam-centre-text1{
+	font-size: 28rpx;
+	color: #000000;
+}
+.Myteam-centre-text2{
+	font-size: 24rpx;
+	color: #000000;
+	margin-top: 18rpx;
+}
+.Myteam-centre-text3{
+	font-size: 28rpx;
+	color: #000000;
+}
+.Myteam-centre-text4{
+	font-size: 28rpx;
+	color: #000000;
+}
+/* 缺 */
+.tixianmingxi-lack{
+	width: 300rpx;
+	height: 300rpx;
+	margin-top:220rpx;
+	margin-left: 280rpx;
+}
+.tixianmingxi-lack-img{
+	width: 200rpx;
+	height: 200rpx;
+}
+.tixianmingxi-lack-img>image{
+	width: 100%;
+	height: 100%;
+}
+.tixianmingxi-lack>text{
+	font-size: 26rpx;
+	color: #808080;
+	text-align: center;
+	padding-left: 18rpx;
+	padding-top: 18rpx;
+}
+

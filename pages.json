@@ -1,0 +1,184 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页,
+		{
+			"path": "pages/main/main",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/gouwuche/gouwuche",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "授权登录"
+			}
+		}, {
+			"path": "pages/reg/reg",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		}, {
+			"path": "pages/pwd/pwd",
+			"style": {
+				"navigationBarTitleText": "找回密码"
+			}
+		}, {
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}, {
+			"path": "pages/shangpizhongxin/shangpinzhongxin",
+			"style": {
+				"navigationBarTitleText": "商品中心",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/details/details",
+			"style": {
+				"navigationBarTitleText": "商品详情"
+			}
+		}, {
+			"path": "pages/jiesuan/jiesuan",
+			"style": {
+				"navigationBarTitleText": "结算"
+			}
+		}, {
+			"path": "pages/shaddress/shaddress",
+			"style": {
+				"navigationBarTitleText": "收货地址"
+			}
+		}, {
+			"path": "pages/editaddress/editaddress",
+			"style": {
+				"navigationBarTitleText": "编辑地址"
+			}
+		}, {
+			"path": "pages/aboutus/aboutus",
+			"style": {
+				"navigationBarTitleText": "关于我们"
+			}
+		}, {
+			"path": "pages/partner/partner",
+			"style": {
+				"navigationBarTitleText": "申请成为vip"
+			}
+		}, {
+			"path": "pages/dongshi/dongshi",
+			"style": {
+				"navigationBarTitleText": "申请成为全国董事"
+			}
+		}, {
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "我的订单"
+			}
+		}
+	    ,{
+            "path" : "pages/distribution/distribution",
+            "style" : {
+				"navigationBarTitleText": "分销中心"
+			}
+        }
+        ,{
+            "path" : "pages/withdrawal/withdrawal",
+            "style" : {
+				"navigationBarTitleText":"提现"
+			}
+        }
+        ,{
+            "path" : "pages/commission/commission",
+            "style" : {
+				"navigationBarTitleText":"分销佣金"
+			}
+        }
+        ,{
+            "path" : "pages/fenxiaodingdan/fenxiaodingdan",
+            "style" : {
+				"navigationBarTitleText":"分销订单",
+				"enablePullDownRefresh": true
+			}
+        }
+        ,{
+            "path" : "pages/tixianmingxi/tixianmingxi",
+            "style" : {
+				"navigationBarTitleText":"提现明细",
+				"enablePullDownRefresh": true
+			}
+        }
+        ,{
+            "path" : "pages/Myteam/Myteam",
+            "style" : {
+				"navigationBarTitleText":"我的团队",
+				"enablePullDownRefresh": true
+			}
+        }
+        ,{
+            "path" : "pages/paymentsuccessful/paymentsuccessful",
+            "style" : {
+				"navigationBarTitleText":"支付成功"
+			}
+        }
+        ,{
+            "path" : "pages/dongshibution/dongshibution",
+            "style" : {
+				"navigationBarTitleText":"全国董事"
+			}
+        }
+        ,{
+            "path" : "pages/partnerbution/partnerbution",
+            "style" : {
+				"navigationBarTitleText":"合伙人"
+			}
+        }
+        ,{
+            "path" : "pages/distributor/distributor",
+            "style" : {
+				"navigationBarTitleText":"申请成为合伙人"
+			}
+        }
+        ,{
+            "path" : "pages/QRcode/QRcode",
+            "style" : {
+				"navigationBarTitleText":"分销二维码"
+			}
+        }
+        ,{
+            "path" : "pages/agreement/agreement",
+            "style" : {
+				"navigationBarTitleText":"协议"
+			}
+        }
+    ],
+	"tabBar": {
+		"selectedColor": "#FF3434",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/main/main",
+			"text": "首页",
+			"iconPath": "static/img/shoye.png",
+			"selectedIconPath": "static/img/shoyeHL.png"
+		}, {
+			"pagePath": "pages/gouwuche/gouwuche",
+			"text": "购物车",
+			"iconPath": "static/img/gouwu.png",
+			"selectedIconPath": "static/img/gouwuHL.png"
+		}, {
+			"pagePath": "pages/user/user",
+			"text": "我的",
+			"iconPath": "static/img/user.png",
+			"selectedIconPath": "static/img/userHL.png"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#fbf9fe",
+		"onReachBottomDistance":160
+	}
+}

@@ -1,0 +1,69 @@
+{
+  "pages": [
+    "pages/main/main",
+    "pages/gouwuche/gouwuche",
+    "pages/login/login",
+    "pages/reg/reg",
+    "pages/pwd/pwd",
+    "pages/user/user",
+    "pages/shangpizhongxin/shangpinzhongxin",
+    "pages/details/details",
+    "pages/jiesuan/jiesuan",
+    "pages/shaddress/shaddress",
+    "pages/editaddress/editaddress",
+    "pages/aboutus/aboutus",
+    "pages/partner/partner",
+    "pages/dongshi/dongshi",
+    "pages/order/order",
+    "pages/distribution/distribution",
+    "pages/withdrawal/withdrawal",
+    "pages/commission/commission",
+    "pages/fenxiaodingdan/fenxiaodingdan",
+    "pages/tixianmingxi/tixianmingxi",
+    "pages/Myteam/Myteam",
+    "pages/paymentsuccessful/paymentsuccessful",
+    "pages/dongshibution/dongshibution",
+    "pages/partnerbution/partnerbution",
+    "pages/distributor/distributor",
+    "pages/QRcode/QRcode",
+    "pages/agreement/agreement"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#fbf9fe",
+    "onReachBottomDistance": 160
+  },
+  "tabBar": {
+    "selectedColor": "#FF3434",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/main/main",
+        "text": "首页",
+        "iconPath": "static/img/shoye.png",
+        "selectedIconPath": "static/img/shoyeHL.png"
+      },
+      {
+        "pagePath": "pages/gouwuche/gouwuche",
+        "text": "购物车",
+        "iconPath": "static/img/gouwu.png",
+        "selectedIconPath": "static/img/gouwuHL.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "static/img/user.png",
+        "selectedIconPath": "static/img/userHL.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "我们要获取您现在当前位置"
+    }
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap6.json"
+}

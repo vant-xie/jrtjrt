@@ -1,0 +1,15 @@
+
+.partnerbution{
+	width: 100%;
+	background-color: #F1F1F1;
+}
+.partnerbution-main{
+	width: 400rpx;
+	height: 400rpx;
+	background-color: #FFFFFF;
+	text-align: center;
+	margin: 0 auto;
+	margin: 200rpx;
+	line-height: 400rpx;
+}
+

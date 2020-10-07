@@ -1,0 +1,109 @@
+
+.tixianmingxi{
+	width: 100%;
+	background-color: #F1F1F1;
+}
+.tixianmingxi-head {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	font-size: 30rpx;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 60rpx;
+	background-color: #FFFFFF;
+}
+.tixianmingxi-headbtn {
+	display: inline-block;
+	width: 33%;
+	height: 100%;
+	/* padding-left: 20upx; */
+	font-size: 28rpx;
+	color: #000000;
+	line-height: 60rpx;
+	position: relative;
+	text-align: center;
+}
+.tixianmingxi-btn{
+	position: relative;
+}
+.tixianmingxi-headbtn .active::after {
+	content: "";
+	position: absolute;
+	width: 78rpx;
+	height: 0;
+	left: 50%;
+	margin-left: -39rpx;
+	bottom: 0;
+	border-bottom: 4rpx solid #F21C24;
+}
+.tixianmingxi-centre{
+	margin-top: 62rpx;
+}
+.tixianmingxi-centre-main{
+	padding: 30rpx;
+	background-color: #FFFFFF;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	margin-bottom: 10rpx;
+}
+.tixianmingxi-centre-left{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+}
+.tixianmingxi-centre-right{
+	font-size: 28rpx;
+	text-align: center;
+	margin-top: 20rpx;
+	color: #FF4444;
+}
+.tixianmingxi-centre-text1{
+	font-size: 28rpx;
+	color: #000000;
+}
+.tixianmingxi-centre-text2{
+	font-size: 24rpx;
+	color: #000000;
+	margin-top: 18rpx;
+}
+/* 缺 */
+.tixianmingxi-lack{
+	width: 300rpx;
+	height: 300rpx;
+	margin-top:220rpx;
+	margin-left: 280rpx;
+}
+.tixianmingxi-lack-img{
+	width: 200rpx;
+	height: 200rpx;
+}
+.tixianmingxi-lack-img>image{
+	width: 100%;
+	height: 100%;
+}
+.tixianmingxi-lack>text{
+	font-size: 26rpx;
+	color: #808080;
+	text-align: center;
+	padding-left: 18rpx;
+	padding-top: 18rpx;
+}
+

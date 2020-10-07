@@ -1,0 +1,34 @@
+
+.commission{
+	width: 100%;
+	background-color: #F1F1F1;
+}
+.commission-main{
+	margin-top:2rpx;
+	margin-bottom: 10rpx;
+	background-color: #FFFFFF;
+	padding: 30rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.commission-text1{
+	font-size: 26rpx;
+	color: #000000;
+}
+.commission-text2{
+	font-size: 26rpx;
+	color: #000000;
+}
+.commission-text3{
+	font-size: 26rpx;
+	color: #000000;
+}
+.commission-text4{
+	font-size: 26rpx;
+	color: #FF5555;
+}
+

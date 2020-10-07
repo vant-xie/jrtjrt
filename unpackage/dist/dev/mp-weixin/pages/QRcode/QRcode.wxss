@@ -1,0 +1,32 @@
+
+.QRcode {
+	width: 100%;
+	background-color: #FC8B8B;
+}
+.QRcode-main {
+	width: 100%;
+	margin-top: 700rpx;
+	margin-bottom: 20rpx;
+}
+.QRcode-img {
+	width: 344rpx;
+	height: 344rpx;
+	background-color: #FFFFFF;
+	margin: 0 auto;
+}
+.QRcode-img>image{
+	width: 100%;
+	height: 100%;
+}
+.QRcode-btn {}
+.QRcode-btn>button {
+	width: 460rpx;
+	height: 80rpx;
+	line-height: 80rpx;
+	margin: 0 auto;
+	color: #FFFFFF;
+	font-size: 30rpx;
+	text-align: center;
+	background-color: #FF3434;
+}
+

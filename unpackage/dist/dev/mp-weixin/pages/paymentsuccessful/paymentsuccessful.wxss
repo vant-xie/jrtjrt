@@ -1,0 +1,52 @@
+
+.paymentsuccessful{
+	width: 100%;
+}
+.paymentsuccessful-main{
+	padding: 100rpx 100rpx 100rpx 200rpx;
+	border-top: 2rpx solid #F1F1F1;
+}
+.paymentsuccessful-main-item{
+	width: 302rpx;
+	height: 302rpx;
+	padding-bottom: 36rpx;
+}
+.paymentsuccessful-main-item>image{
+	width: 100%;
+	height: 100%;
+}
+.paymentsuccessful-text1{
+	font-size: 32rpx;
+	color: #333333;
+}
+.paymentsuccessful-text2{
+	font-size: 36rpx;
+	color: #333333;
+}
+.paymentsuccessful-footer{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+}
+.paymentsuccessful-btn1{
+	width: 300rpx;
+	height: 78rpx;
+	background-color: #FE5151;
+	color: #FFFFFF;
+	font-size: 28rpx;
+	line-height: 78rpx;
+	text-align: center;
+}
+.paymentsuccessful-btn2{
+	width: 300rpx;
+	height: 78rpx;
+	font-size: 28rpx;
+	color: #999999;
+	line-height: 78rpx;
+	text-align: center;
+}
+

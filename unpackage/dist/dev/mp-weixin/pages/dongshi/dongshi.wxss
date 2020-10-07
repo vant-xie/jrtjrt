@@ -1,0 +1,329 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* checkbox样式修改 */
+checkbox .wx-checkbox-input {
+	width: 26rpx;
+	height: 26rpx;
+	/* border-radius: 50%; */
+}
+checkbox .wx-checkbox-input.wx-checkbox-input-checked {
+	border: 2rpx solid #ff4500;
+	background: #ff4500;
+	color: #FFFFFF !important;
+}
+checkbox .wx-checkbox-input.wx-checkbox-input-checked::before {
+	font-size: 40rpx;
+}
+.dongshi {
+	width: 100%;
+}
+.line {
+	width: 95%;
+	height: 2rpx;
+	display: inline-block;
+	margin: 0 auto;
+	/* margin: 30upx 0upx 5upx 0upx; */
+	background-color: #f2f2f2;
+	text-align: center;
+}
+.dongshi-main {
+	padding-left: 30rpx;
+}
+.dongshi-top {
+	width: 750rpx;
+	height: 360rpx;
+}
+.dongshi-top>image {
+	width: 100%;
+	height: 100%;
+}
+.dongshi-item {
+	padding: 30rpx 0 0 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	background-color: #FFFFFF;
+	/* margin-top: 2upx; */
+}
+.dongshi-item>label {
+	font-size: 30rpx;
+	color: #333333;
+}
+.dongshi-item>input {
+	width: 78%;
+	padding-left: 28rpx;
+	font-size: 30rpx;
+	color: #616161;
+}
+.dongshi-item1 {
+	padding: 30rpx 30rpx 0 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	background-color: #FFFFFF;
+	/* margin-top: 2upx; */
+}
+.dongshi-item1>label {
+	font-size: 30rpx;
+	color: #333333;
+}
+.dongshi-item1>input {
+	width: 80%;
+	/* padding-left: 28upx; */
+	font-size: 30rpx;
+	color: #616161;
+}
+.dongshi-item1-icon {
+	width: 22rpx;
+	height: 40rpx;
+}
+.dongshi-item1-icon>image {
+	width: 100%;
+	height: 100%;
+}
+.dongshi-item2 {
+	padding: 30rpx 30rpx 30rpx 30rpx;
+	/* display: flex; */
+	/* flex-direction: row; */
+	/* justify-content: space-between; */
+	background-color: #FFFFFF;
+	/* margin-top: 2upx; */
+}
+.dongshi-item2>label {
+	font-size: 30rpx;
+	color: #333333;
+}
+.dongshi-item2>input {
+	width: 72%;
+	/* padding-left: 28upx; */
+	font-size: 30rpx;
+	color: #616161;
+}
+.dongshi-item2-text1 {
+	font-size: 24rpx;
+	color: #333333;
+}
+.dongshi-item2-text2 {
+	font-size: 24rpx;
+	color: #284769;
+}
+.dongshi-Submit {
+	width: 100%;
+	padding: 30rpx;
+	background-color: #F5F5F5;
+}
+.dongshi-Submit-come {
+	width: 92%;
+	height: 80rpx;
+	line-height: 80rpx;
+	border-radius: 10rpx;
+	background-color: #FF3434;
+	font-size: 30rpx;
+	color: #FFFFFF;
+	text-align: center;
+}
+.dongshi-footer {
+	padding-left: 30rpx;
+}
+.dongshi-footer-top {
+	margin-top: 30rpx;
+	font-size: 30rpx;
+	color: #000000;
+	position: relative;
+	padding-left: 14rpx;
+}
+.dongshi-footer-top::before {
+	content: "";
+	position: absolute;
+	height: 30rpx;
+	width: 4rpx;
+	top: 6rpx;
+	left: 0;
+	border-left: 4rpx solid #FF3434;
+}
+.dongshi-footer-bottom {
+	margin-top: 32rpx;
+	font-size: 26rpx;
+	color: #333333;
+}
+

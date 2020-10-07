@@ -1,0 +1,1 @@
+<view class="aboutus"><view class="aboutus-item"><rich-text nodes="{{adoutus}}"></rich-text></view></view>

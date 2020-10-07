@@ -1,0 +1,1 @@
+<view class="QRcode" style="{{'background-image:'+('url('+qrcode_img+')')+';'+('background-size:'+('100%')+';')}}"><view class="QRcode-main"><view class="QRcode-img"><image src="{{qrcode}}"></image></view></view><view class="QRcode-btn"><button data-event-opts="{{[['tap',[['save',['$event']]]]]}}" bindtap="__e">保存分销二维码到手机</button></view></view>

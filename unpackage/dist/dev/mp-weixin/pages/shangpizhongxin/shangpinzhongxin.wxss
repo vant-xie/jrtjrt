@@ -1,0 +1,117 @@
+
+.shangpinzhongxin {
+	background-color: #F7F7F7;
+	width: 100%;
+}
+.shangpinzhongxin-top {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 80rpx;
+	background-color: #FFFFFF;
+}
+.scroll {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	white-space: nowrap;
+}
+.tabar1 {
+	display: inline-block;
+	width: 20%;
+	/* padding-left: 20upx; */
+	font-size: 28rpx;
+	color: #616161;
+	line-height: 80rpx;
+	position: relative;
+	text-align: center;
+}
+.tabar1:first-child {
+	color: #000000;
+}
+.tabar1.active::after {
+	content: "";
+	position: absolute;
+	width: 28rpx;
+	height: 0;
+	left: 50%;
+	margin-left: -14rpx;
+	bottom: 0;
+	border-bottom: 4rpx solid #F21C24;
+}
+.shangpin-content {
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	margin-top: 80rpx;
+}
+.shangpin-item {
+	width: 370rpx;
+	height: 504rpx;
+	background-color: #FFFFFF;
+	margin: 0 10rpx 10rpx 0;
+}
+.shangpin-item:nth-child(even) {
+	margin-right: 0;
+}
+.shangpin-item-top {
+	width: 360rpx;
+	height: 360rpx;
+}
+.shangpin-item-top image {
+	width: 100%;
+	height: 100%;
+}
+.shangpin-item-footer {
+	width: 80%;
+	margin-left: 30rpx;
+}
+.shangpin-item-footer-text1 {
+	/* width: 222upx; */
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	/* height: 30upx; */
+	font-size: 32rpx;
+	color: #202020;
+	margin: 10rpx 0 0 0;
+}
+.shangpin-item-footer-text2 {
+	width: 100%;
+	color: #FF3434;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	padding: 20rpx 0 20rpx 0;
+}
+.shangpin-item-footer-textl {
+	width: 16rpx;
+	height: 26rpx;
+	font-size: 26rpx;
+	line-height: 22rpx;
+	padding-top: 12rpx;
+	padding-right: 10rpx;
+}
+.shangpin-item-footer-textr {
+	width: 72rpx;
+	height: 26rpx;
+	font-size: 32rpx;
+	margin-left: 10rpx;
+}
+
